@@ -1,24 +1,21 @@
 body {
-    background-image: url('https://img.freepik.com/free-photo/many-blank-business-cards_23-2147725078.jpg?w=1380&t=st=1715636116~exp=1715636716~hmac=5f7475956d39af87a5185af6973e1afca77098202893df6f5884b5eac8263e2d');
-    background-size: cover;
+    background-image: url(bg.jpg);
+    background-size: auto;
     background-position: center;
-    background-repeat: repeat-y;
+    background-repeat: no-repeat;
     font-size: 18px;
 }
 
 h1 {
     font-size: 2.5em;
-    /* Adjust the font size for headings */
 }
 
 h2 {
     font-size: 2em;
-    /* Adjust the font size for subheadings */
 }
 
 p {
     font-size: 1.2em;
-    /* Adjust the font size for paragraphs */
 }
 
 #array {
