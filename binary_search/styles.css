@@ -1,5 +1,24 @@
 body {
-    background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhIhSkbIYc4tCCJqUgpZelNiTaenRFIgOOGbxHgKf4Afxiziy2CamCVJheKLR6BHwMIoO6J0ELt7DB4kpyus6bFSJJxqxAK9wNr66D0jPOp54MDO-BjAoFiUAYYjzpkeEOgAckxYsjwsrhAEf7kekQM-9yGBn9uQYcxLxPgGgUG6IMurLBhVpYQTwejcQ/s1600-rw/Abstract-mesh-background-3840x2160.png');
+    background-image: url('https://img.freepik.com/free-photo/many-blank-business-cards_23-2147725078.jpg?w=1380&t=st=1715636116~exp=1715636716~hmac=5f7475956d39af87a5185af6973e1afca77098202893df6f5884b5eac8263e2d');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat-y;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 2.5em;
+    /* Adjust the font size for headings */
+}
+
+h2 {
+    font-size: 2em;
+    /* Adjust the font size for subheadings */
+}
+
+p {
+    font-size: 1.2em;
+    /* Adjust the font size for paragraphs */
 }
 
 #array {
@@ -10,15 +29,16 @@ body {
 
 .array-element {
     text-align: center;
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     background-color: #ccc;
     border: 1px solid #666;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 5px;
-    font-size: 16px;
+    padding: 5px;
+    font-size: 26px;
 }
 
 .highlight-left {
@@ -64,7 +84,7 @@ body {
 button {
     text-decoration: none;
     display: inline-block;
-    padding: 10px 16px;
+    padding: 10px 20px;
     width: max-content;
 }
 
@@ -78,6 +98,7 @@ button:hover {
     color: black;
     border-width: 1px;
     border-radius: 50%;
+    font-size: 25px;
 }
 
 .next {
@@ -85,4 +106,5 @@ button:hover {
     color: white;
     border-width: 1px;
     border-radius: 50%;
+    font-size: 25px;
 }
