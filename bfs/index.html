@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BFS Visualization</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>BFS Visualization Algorithm</h1>
+    <div id="controls">
+        <button type="button" id="start-button" onclick=startBFS()>Start BFS</button>
+        <button type="button" id="stop-button" onclick=resetGrid()>Reset</button>
+    </div>
+    <div id="queue">
+        Queue: <span id="queue-items"></span>
+    </div>
+    <div id="grid-container">
+    </div>
+    <div id="info">
+        <div>
+            <h2>Current Box</h2>
+            <p id="current-box"></p>
+            <h2>Shortest Path</h2>
+            <p id="shortest-path-info">Shortest path will be shown here.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
